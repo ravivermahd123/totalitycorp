@@ -1,0 +1,37 @@
+.menuss{
+    width: 100%;
+    float: left;
+}
+.menu-col{
+    width: 50%;
+    float: left;
+    display: flex;
+    padding: 10px 0px 10px 0px ;
+}
+.menu-col p {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.col-Menus1{
+    width: 20%;
+    float: left;
+}
+.col-Menus2{
+    width: 80%;
+    float: left;
+}
+
+
+@media screen and (max-width: 768px) {
+    .col-Menus1{
+       display: none;
+    }
+    .col-Menus2{
+        width: 100%;
+       
+    }
+    .menu-col{
+        width: 100%;
+    
+    }
+    }

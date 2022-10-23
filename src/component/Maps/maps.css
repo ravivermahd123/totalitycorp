@@ -1,0 +1,63 @@
+.map{
+    width: 100%;
+    float: left;
+}
+.map-col1{
+    width: 40%;
+    float: left;
+}
+.map-col2{
+    width: 60%;
+    float: left;
+}
+
+
+
+.form__field {
+    font-family: inherit;
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid gray;
+    outline: 0;
+    font-size: 1.3rem;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    width: 80%;
+    float: left;
+  }
+ 
+  
+
+/* CSS */
+.button {
+    width: 20%;
+  border: 4px solid green;
+  color: green;
+  background: transparent;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 20px;
+}
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+@media screen and (max-width: 600px) {
+
+    .map-col1{
+        width: 100%;
+        float: left;
+    }
+    .map-col2{
+        width: 100%;
+        float: left; 
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+
+  }
+  

@@ -1,0 +1,93 @@
+.rewards{
+    width: 100%;
+    padding: 1px 0px 1px 0px ;
+    background-color: rgba(0,0,0,.87);
+    color: aliceblue;
+}
+
+
+/* last */
+.last{
+    background-color:#d0dede8f;
+    width: 100%;
+    padding: 10px 0px 10px 0px ;
+}
+.rewardCol{
+    width: 50%;
+    float: left;
+    line-height: 2;
+}
+.textReward{
+    width: 80%;
+
+}
+
+
+/* Getting*/
+.Getting{
+    width: 100%;
+    padding:50px 0px 50px 0px;
+    text-align: center;
+    }
+.GettingCol {
+    width: 33%;
+    float: left;
+    padding: 30px 0px 30px 0px ;
+}
+.get{
+    border: 2px solid green;
+    padding: 4px 10px ;
+    color: green;
+    border-radius: 20px;
+    
+}
+.favorites{
+    width: 100%;
+    background-color: rgba(212,233,226,.33);
+    padding: 10px 0px 10px 0px  ;
+    text-align: center;
+}
+.Customize{
+    width: 100%;
+    background-color:  #c2d1de;
+    float: left;
+    padding: 10px 0px 10px 0px ;
+}
+.Customize-col{
+    width: 50%;
+    float: left;
+    
+}
+.Customize-text{
+    width: 50%;
+    
+}
+.Customize-image img{
+    width: 400px;
+    height: 200px;
+    float: right;
+    padding:20px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .Customize-col{
+        width: 100%;
+            
+    }
+    .Customize-text{
+        width: 100%;
+        
+    }
+    .Customize-image img{
+        float: left;
+    }
+    .GettingCol{
+        width: 100%;
+        float: left;
+    }
+    .rewardCol{
+        width: 100%;
+        float: left;
+    }
+}

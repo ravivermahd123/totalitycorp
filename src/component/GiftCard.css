@@ -1,0 +1,45 @@
+.column {
+
+    width: 25%;
+    padding: 0 10px;
+    display: inline-block;
+    overflow: auto;
+    white-space: nowrap;
+    
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {
+    /* overflow: auto; */
+    /* white-space: nowrap; */
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    
+    padding: 16px;
+    
+     
+  }
+
+  .imageshello :hover {
+    opacity: 0;
+    padding-top: 100px;
+  }
+ 
